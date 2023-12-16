@@ -57,6 +57,7 @@ If you want to do this make it as a separate table. Add the ID of an employee.
 |   3	    | JavaScript|
 |   3	    | Java      |
 |   3	    | Linux     |
+
 Or duplicate employees like below and emp skill in a separate row. But which needs to undergo the 2NF and 3NF
 
 |emp_id |	emp_name	 | emp_mobile	|emp_skill |
