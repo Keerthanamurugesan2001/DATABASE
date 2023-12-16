@@ -248,4 +248,44 @@ That would mean that a join relation of the above three relations is equal to ou
 - Database Normalization helps you design and structure your table properly so that you have proper relationships between tables
 - No large tables, small tables with a proper relationship.
 - Removing dependencies, like Partial Dependency, Transitive Dependency, Join Dependency, etc.
-- 
+
+
+## Denormalization
+
+- when we want to retrieve data from multiple tables, we need to perform some kind of join operation on them
+- This method allows us to add redundant data into a normalized database to alleviate issues with database queries that merge data from several tables into a single table.
+
+The below table is normalized data
+| Team ID | Team Name                   |
+|---------|-----------------------------|
+| 1       | Mumbai Indians              |
+| 2       | Royal Challengers Bangalore |
+| 3       | Chennai Super Kings         |
+
+
+| Player ID | Player Name   | Team ID |
+|-----------|---------------|---------|
+| 1         | Rohit Sharma  | 1       |
+| 2         | Virat Kohli   | 2       |
+| 3         | MS Dhoni      | 3       |
+
+On the above two tables, we can implement the flattening technique to denormalize both tables.
+
+| Team ID | Team Name                   | Player Name  | Player ID |
+|---------|-----------------------------|--------------|-----------|
+| 1       | Mumbai Indians              | Rohit Sharma | 1         |
+| 2       | Royal Challengers Bangalore | Virat Kohli  | 2         |
+| 3       | Chennai Super Kings         | MS Dhoni     | 3         |
+
+## **WHY?**
+
+- It can provide quick and efficient access.
+- Retrieving data is simple and easy.
+- Fewer tables need to be checked.
+- reduces the complexity of queries by reducing the number of join queries
+
+**Disadvantages**
+
+- Redundant data can lead to data inconsistencies.
+- Updation and Insertion of data can be costly.
+- Not optimized for the storage of data, unlike normalized tables.
