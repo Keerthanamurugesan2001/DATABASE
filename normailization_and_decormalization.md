@@ -248,3 +248,4 @@ That would mean that a join relation of the above three relations is equal to ou
 - Database Normalization helps you design and structure your table properly so that you have proper relationships between tables
 - No large tables, small tables with a proper relationship.
 - Removing dependencies, like Partial Dependency, Transitive Dependency, Join Dependency, etc.
+- 
