@@ -237,7 +237,9 @@ Decomposed into three tables
 |JavaScript|E146                  |
 |jQuery    |E146                  |
 |Java      |E147                  |
+
 ```{(EmpName, EmpSkills ), (EmpName, EmpJob), (EmpSkills, EmpJob)}```
+
 That would mean that a join relation of the above three relations is equal to our original relation <Employee>.
 
 
