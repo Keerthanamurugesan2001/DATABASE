@@ -150,6 +150,7 @@ Professor Table
 |1	 | P.Java	   | Java   |
 |2	 | P.Cpp	   | C++    |
 
+
 ### Fourth Normal Form (4NF)
 
 1. It should be in the Boyce-Codd Normal Form.
@@ -168,7 +169,9 @@ Professor Table
 | 1	   | Maths	 | Hockey  |
 | 2	   | C#	     | Cricket |
 | 2	   | Php	   | Hockey  |
+
 s_id 1, will give rise to two more records.
+
 | s_id |	course |	hobby  |
 |------|---------|---------|
 | 1	   | Science |	Cricket|
