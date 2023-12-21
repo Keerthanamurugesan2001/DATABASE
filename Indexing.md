@@ -1,6 +1,6 @@
 # Index
 
-An index is a special lookup table that helps speed up the process of retrieving data from a database 
+An index is a special lookup table that helps speed up the process of retrieving data from a database.
 
 An index helps to speed up the retrieval process like select query with a where class, but it slows down the input process, like Update, Insert
 
