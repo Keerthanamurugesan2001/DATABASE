@@ -1,8 +1,14 @@
 # Index
 
 An index is a special lookup table that helps speed up the process of retrieving data from a database 
+
+An index helps to speed up the retrieval process like select query with a where class, but it slows down the input process, like Update, Insert
+
+We can create and drop the index, it won't affect in data.
+
+
 types of indexes but one of the most common types is the clustered index.  
-- SQL Server can lookup indexes quickly and easily instead of searching sequentially through potentially a large table.
+- SQL Server can look at indexes quickly and easily instead of searching sequentially through potentially a large table.
 - This is similar to the operating system to cache a lot of indexes into memory for faster access and for the file system to read a huge number of records simultaneously rather than reading them from the disk.
 
 ## Type of Indexing:
