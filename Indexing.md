@@ -12,7 +12,7 @@ types of indexes but one of the most common types is the clustered index.
 - This is similar to the operating system to cache a lot of indexes into memory for faster access and for the file system to read a huge number of records simultaneously rather than reading them from the disk.
 
 ## Type of Indexing:
-- Clustered Index
+1)  Clustered Index
 
 
 ```
@@ -30,5 +30,9 @@ CREATE TABLE dbo.EmployeePhoto
 - Notice that not only creating a **primary key creates a unique SQL index**
 - a unique or primary key constraint should be created on the column when data integrity is the objective because by doing so the objective of the index will be clear.
 
+2) primary Index
+    
+4) 
 # Ref Link:
 [https://www.simplilearn.com/tutorials/sql-tutorial/index-in-sql](https://www.simplilearn.com/tutorials/sql-tutorial/index-in-sql)
+[https://www.sqlshack.com/sql-index-overview-and-strategy/](https://www.sqlshack.com/sql-index-overview-and-strategy/)
